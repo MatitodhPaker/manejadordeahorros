@@ -31,9 +31,11 @@
       </div>
       <div class="row mt-4">
         <div class="col">
-          <?php include "vistas/ahorro/tablaahorro.php" ?>
+          <div id="tablaahorro"></div>
+          <?php include "vistas/ahorro/modalactualizarahorro.php" ?>
         </div>
       </div>
     </div>
   </body>
 </html>
+<script src="public/js/ahorro.js"></script>

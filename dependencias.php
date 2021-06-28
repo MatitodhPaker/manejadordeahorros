@@ -9,4 +9,3 @@
 <script src="public/datatable/jquery.dataTables.min.js"></script>
 <script src="public/datatable/dataTables.bootstrap4.min.js"></script>
 <script src="public/sweetalert.min.js"></script>
-<script src="public/js/main.js"></script>

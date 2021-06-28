@@ -10,16 +10,18 @@
           </button>
       </div>
       <div class="modal-body">
-        <form>
+        <form onsubmit="return sugerencias()" id="frmnuevoahorro">
           <label for="sueldo">sueldo</label>
-          <input type="text" name="sueldo" id="sueldo" class="form-control">
+          <input type="text" name="sueldo" id="sueldo" class="form-control" required pattern="[0-9]+" placeholder="60">
           <label for="cantidadahorro">Cantidad a ahorrar</label>
-          <input type="text" name="cantidadahorro" id="cantidadahorro" class="form-control">
+          <input type="text" name="cantidadahorro" id="cantidadahorro" class="form-control" required pattern="[0-9]+" placeholder="60">
+          <br>
+          <button class="btn btn-primary">Comenzar</button>
         </form>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save</button>
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+        
       </div>
     </div>
   </div>
