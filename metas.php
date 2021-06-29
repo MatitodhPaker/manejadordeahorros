@@ -20,16 +20,18 @@
     <div class="container">
       <div class="row mt-4">
         <div class="col">
-          <?php include "vistas/metas/tablametas.php" ?>
+          <div><h1>Tus Metas</h1></div>
+          <br>
+          <div id="tablademetas"></div>
         </div>
       </div>
-      <div class="row">
+      <div class="row mt-4">
         <div class="col">
-          <hr>
-          <label for="nueva meta">Nueva meta a consegir</label>
-          <input type="text" disabled class="form-control" id="nevameta">
+        <hr>
+          <div id="estadodemeta"></div>
         </div>
       </div>
     </div>
   </body>
 </html>
+<script src="public/js/metas.js"></script>

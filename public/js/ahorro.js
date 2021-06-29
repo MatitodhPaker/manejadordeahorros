@@ -93,7 +93,6 @@ function eliminarAhorro(idahorro) {
         data: "idahorro="+idahorro,
         url: "procesos/ahorro/eliminarahorro.php",
         success:function(respuesta) {
-          console.log(respuesta);
           if (respuesta == 1) {
             $('#tablaahorro').load('vistas/ahorro/tablaahorro.php');
             swal(";D","se elimino tu ahorro","success");

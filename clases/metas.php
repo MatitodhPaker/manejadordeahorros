@@ -7,5 +7,11 @@
       $respuesta=mysqli_query($conexion,$sql);
       return $respuesta;
     }
+    public function eliminatMeta($idmeta){
+      $conexion=Conexion::conectar();
+      $sql="DELETE FROM t_metas WHERE id_meta='$idmeta'";
+      $respuesta=mysqli_query($conexion,$sql);
+      return $respuesta;
+    }
   }
 ?>
